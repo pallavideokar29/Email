@@ -27,7 +27,7 @@ The spam detection process goes through a series of following steps:
     ├── results             
         ├── model.txt       # Saved Model
         ├── result.txt      # Classification Results
-    └── README.md
+    └── Readme.md
   
 ## Processor.py
 This file contains code for reading and loading the training and test documents of spam and ham class. It also consists of logic necessary to implement the steps required for classification of email such as tokenization of corpus, calculating frequency of words, computing conditional probabilities, building and storing the vocabulary and classification results.
